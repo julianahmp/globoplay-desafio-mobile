@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4571E1392ECF59256F45F0DD /* Pods_DesafioGloboPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C9138985A27656EFD86296 /* Pods_DesafioGloboPlayTests.framework */; };
+		BC59EB7FCA4483FA7329583B /* Pods_DesafioGloboPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9933E2248FD2BFDF9DA9E1C3 /* Pods_DesafioGloboPlay.framework */; };
+		EAF7D66C86E9E78101AA5005 /* Pods_DesafioGloboPlay_DesafioGloboPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79E7CFB6813062832A873A3 /* Pods_DesafioGloboPlay_DesafioGloboPlayUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CC6FFC12CE6D16E00D08A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CC6FFA22CE6D16B00D08A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC6FFA92CE6D16B00D08A84;
+			remoteInfo = DesafioGloboPlay;
+		};
+		6CC6FFCB2CE6D16E00D08A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CC6FFA22CE6D16B00D08A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC6FFA92CE6D16B00D08A84;
+			remoteInfo = DesafioGloboPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C9138985A27656EFD86296 /* Pods_DesafioGloboPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioGloboPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		325AFD5006CD0BD1E8097103 /* Pods-DesafioGloboPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioGloboPlay.debug.xcconfig"; path = "Target Support Files/Pods-DesafioGloboPlay/Pods-DesafioGloboPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		32EF576AA46B6B3E10266763 /* Pods-DesafioGloboPlay-DesafioGloboPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioGloboPlay-DesafioGloboPlayUITests.release.xcconfig"; path = "Target Support Files/Pods-DesafioGloboPlay-DesafioGloboPlayUITests/Pods-DesafioGloboPlay-DesafioGloboPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		513C550D085FAE94B2A9FEF7 /* Pods-DesafioGloboPlay-DesafioGloboPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioGloboPlay-DesafioGloboPlayUITests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioGloboPlay-DesafioGloboPlayUITests/Pods-DesafioGloboPlay-DesafioGloboPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CC6FFAA2CE6D16B00D08A84 /* DesafioGloboPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioGloboPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC6FFC02CE6D16E00D08A84 /* DesafioGloboPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioGloboPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC6FFCA2CE6D16E00D08A84 /* DesafioGloboPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioGloboPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9933E2248FD2BFDF9DA9E1C3 /* Pods_DesafioGloboPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioGloboPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B64E13230E42C55F36CC4A /* Pods-DesafioGloboPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioGloboPlayTests.release.xcconfig"; path = "Target Support Files/Pods-DesafioGloboPlayTests/Pods-DesafioGloboPlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		A79E7CFB6813062832A873A3 /* Pods_DesafioGloboPlay_DesafioGloboPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioGloboPlay_DesafioGloboPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB54CD7050E3BEAFD9FFFBAB /* Pods-DesafioGloboPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioGloboPlayTests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioGloboPlayTests/Pods-DesafioGloboPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E42BF7E9D5D8412E5A964F90 /* Pods-DesafioGloboPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioGloboPlay.release.xcconfig"; path = "Target Support Files/Pods-DesafioGloboPlay/Pods-DesafioGloboPlay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6CC6FFD22CE6D16E00D08A84 /* Exceptions for "DesafioGloboPlay" folder in "DesafioGloboPlay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6CC6FFA92CE6D16B00D08A84 /* DesafioGloboPlay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6CC6FFAC2CE6D16B00D08A84 /* DesafioGloboPlay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6CC6FFD22CE6D16E00D08A84 /* Exceptions for "DesafioGloboPlay" folder in "DesafioGloboPlay" target */,
+			);
+			path = DesafioGloboPlay;
+			sourceTree = "<group>";
+		};
+		6CC6FFC32CE6D16E00D08A84 /* DesafioGloboPlayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DesafioGloboPlayTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC6FFA72CE6D16B00D08A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC59EB7FCA4483FA7329583B /* Pods_DesafioGloboPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6FFBD2CE6D16E00D08A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571E1392ECF59256F45F0DD /* Pods_DesafioGloboPlayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6FFC72CE6D16E00D08A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF7D66C86E9E78101AA5005 /* Pods_DesafioGloboPlay_DesafioGloboPlayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC6FFA12CE6D16B00D08A84 = {
+			isa = PBXGroup;
+			children = (
+				6CC6FFAC2CE6D16B00D08A84 /* DesafioGloboPlay */,
+				6CC6FFC32CE6D16E00D08A84 /* DesafioGloboPlayTests */,
+				6CC6FFAB2CE6D16B00D08A84 /* Products */,
+				9B070E837ABAD4C76A84310E /* Pods */,
+				71A184F796E3371C50D87079 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC6FFAB2CE6D16B00D08A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC6FFAA2CE6D16B00D08A84 /* DesafioGloboPlay.app */,
+				6CC6FFC02CE6D16E00D08A84 /* DesafioGloboPlayTests.xctest */,
+				6CC6FFCA2CE6D16E00D08A84 /* DesafioGloboPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A184F796E3371C50D87079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9933E2248FD2BFDF9DA9E1C3 /* Pods_DesafioGloboPlay.framework */,
+				A79E7CFB6813062832A873A3 /* Pods_DesafioGloboPlay_DesafioGloboPlayUITests.framework */,
+				08C9138985A27656EFD86296 /* Pods_DesafioGloboPlayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B070E837ABAD4C76A84310E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				325AFD5006CD0BD1E8097103 /* Pods-DesafioGloboPlay.debug.xcconfig */,
+				E42BF7E9D5D8412E5A964F90 /* Pods-DesafioGloboPlay.release.xcconfig */,
+				513C550D085FAE94B2A9FEF7 /* Pods-DesafioGloboPlay-DesafioGloboPlayUITests.debug.xcconfig */,
+				32EF576AA46B6B3E10266763 /* Pods-DesafioGloboPlay-DesafioGloboPlayUITests.release.xcconfig */,
+				BB54CD7050E3BEAFD9FFFBAB /* Pods-DesafioGloboPlayTests.debug.xcconfig */,
+				A5B64E13230E42C55F36CC4A /* Pods-DesafioGloboPlayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC6FFA92CE6D16B00D08A84 /* DesafioGloboPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC6FFD32CE6D16E00D08A84 /* Build configuration list for PBXNativeTarget "DesafioGloboPlay" */;
+			buildPhases = (
+				0D2EE70A6480B03EFFE4A2AA /* [CP] Check Pods Manifest.lock */,
+				6CC6FFA62CE6D16B00D08A84 /* Sources */,
+				6CC6FFA72CE6D16B00D08A84 /* Frameworks */,
+				6CC6FFA82CE6D16B00D08A84 /* Resources */,
+				660E05C7C8DB535D170946E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6CC6FFAC2CE6D16B00D08A84 /* DesafioGloboPlay */,
+			);
+			name = DesafioGloboPlay;
+			productName = DesafioGloboPlay;
+			productReference = 6CC6FFAA2CE6D16B00D08A84 /* DesafioGloboPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CC6FFBF2CE6D16E00D08A84 /* DesafioGloboPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC6FFD82CE6D16E00D08A84 /* Build configuration list for PBXNativeTarget "DesafioGloboPlayTests" */;
+			buildPhases = (
+				3164D0BF7E2FDEDC0819B220 /* [CP] Check Pods Manifest.lock */,
+				6CC6FFBC2CE6D16E00D08A84 /* Sources */,
+				6CC6FFBD2CE6D16E00D08A84 /* Frameworks */,
+				6CC6FFBE2CE6D16E00D08A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC6FFC22CE6D16E00D08A84 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6CC6FFC32CE6D16E00D08A84 /* DesafioGloboPlayTests */,
+			);
+			name = DesafioGloboPlayTests;
+			productName = DesafioGloboPlayTests;
+			productReference = 6CC6FFC02CE6D16E00D08A84 /* DesafioGloboPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CC6FFC92CE6D16E00D08A84 /* DesafioGloboPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC6FFDB2CE6D16E00D08A84 /* Build configuration list for PBXNativeTarget "DesafioGloboPlayUITests" */;
+			buildPhases = (
+				42D661BCFC1417D0392C41C5 /* [CP] Check Pods Manifest.lock */,
+				6CC6FFC62CE6D16E00D08A84 /* Sources */,
+				6CC6FFC72CE6D16E00D08A84 /* Frameworks */,
+				6CC6FFC82CE6D16E00D08A84 /* Resources */,
+				C722DF93C7D7C8EEE2D90D4D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC6FFCC2CE6D16E00D08A84 /* PBXTargetDependency */,
+			);
+			name = DesafioGloboPlayUITests;
+			productName = DesafioGloboPlayUITests;
+			productReference = 6CC6FFCA2CE6D16E00D08A84 /* DesafioGloboPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC6FFA22CE6D16B00D08A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6CC6FFA92CE6D16B00D08A84 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6CC6FFBF2CE6D16E00D08A84 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6CC6FFA92CE6D16B00D08A84;
+					};
+					6CC6FFC92CE6D16E00D08A84 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6CC6FFA92CE6D16B00D08A84;
+					};
+				};
+			};
+			buildConfigurationList = 6CC6FFA52CE6D16B00D08A84 /* Build configuration list for PBXProject "DesafioGloboPlay" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CC6FFA12CE6D16B00D08A84;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6CC6FFAB2CE6D16B00D08A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC6FFA92CE6D16B00D08A84 /* DesafioGloboPlay */,
+				6CC6FFBF2CE6D16E00D08A84 /* DesafioGloboPlayTests */,
+				6CC6FFC92CE6D16E00D08A84 /* DesafioGloboPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC6FFA82CE6D16B00D08A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6FFBE2CE6D16E00D08A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6FFC82CE6D16E00D08A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2EE70A6480B03EFFE4A2AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioGloboPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3164D0BF7E2FDEDC0819B220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioGloboPlayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D661BCFC1417D0392C41C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioGloboPlay-DesafioGloboPlayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660E05C7C8DB535D170946E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioGloboPlay/Pods-DesafioGloboPlay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioGloboPlay/Pods-DesafioGloboPlay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioGloboPlay/Pods-DesafioGloboPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C722DF93C7D7C8EEE2D90D4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioGloboPlay-DesafioGloboPlayUITests/Pods-DesafioGloboPlay-DesafioGloboPlayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioGloboPlay-DesafioGloboPlayUITests/Pods-DesafioGloboPlay-DesafioGloboPlayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioGloboPlay-DesafioGloboPlayUITests/Pods-DesafioGloboPlay-DesafioGloboPlayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC6FFA62CE6D16B00D08A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6FFBC2CE6D16E00D08A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC6FFC62CE6D16E00D08A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CC6FFC22CE6D16E00D08A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CC6FFA92CE6D16B00D08A84 /* DesafioGloboPlay */;
+			targetProxy = 6CC6FFC12CE6D16E00D08A84 /* PBXContainerItemProxy */;
+		};
+		6CC6FFCC2CE6D16E00D08A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CC6FFA92CE6D16B00D08A84 /* DesafioGloboPlay */;
+			targetProxy = 6CC6FFCB2CE6D16E00D08A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CC6FFD42CE6D16E00D08A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325AFD5006CD0BD1E8097103 /* Pods-DesafioGloboPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioGloboPlay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julianahmp.DesafioGloboPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CC6FFD52CE6D16E00D08A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42BF7E9D5D8412E5A964F90 /* Pods-DesafioGloboPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesafioGloboPlay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julianahmp.DesafioGloboPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CC6FFD62CE6D16E00D08A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CC6FFD72CE6D16E00D08A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC6FFD92CE6D16E00D08A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB54CD7050E3BEAFD9FFFBAB /* Pods-DesafioGloboPlayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julianahmp.DesafioGloboPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioGloboPlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesafioGloboPlay";
+			};
+			name = Debug;
+		};
+		6CC6FFDA2CE6D16E00D08A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B64E13230E42C55F36CC4A /* Pods-DesafioGloboPlayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julianahmp.DesafioGloboPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioGloboPlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesafioGloboPlay";
+			};
+			name = Release;
+		};
+		6CC6FFDC2CE6D16E00D08A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513C550D085FAE94B2A9FEF7 /* Pods-DesafioGloboPlay-DesafioGloboPlayUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julianahmp.DesafioGloboPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioGloboPlay;
+			};
+			name = Debug;
+		};
+		6CC6FFDD2CE6D16E00D08A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EF576AA46B6B3E10266763 /* Pods-DesafioGloboPlay-DesafioGloboPlayUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = julianahmp.DesafioGloboPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioGloboPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC6FFA52CE6D16B00D08A84 /* Build configuration list for PBXProject "DesafioGloboPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6FFD62CE6D16E00D08A84 /* Debug */,
+				6CC6FFD72CE6D16E00D08A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC6FFD32CE6D16E00D08A84 /* Build configuration list for PBXNativeTarget "DesafioGloboPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6FFD42CE6D16E00D08A84 /* Debug */,
+				6CC6FFD52CE6D16E00D08A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC6FFD82CE6D16E00D08A84 /* Build configuration list for PBXNativeTarget "DesafioGloboPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6FFD92CE6D16E00D08A84 /* Debug */,
+				6CC6FFDA2CE6D16E00D08A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC6FFDB2CE6D16E00D08A84 /* Build configuration list for PBXNativeTarget "DesafioGloboPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC6FFDC2CE6D16E00D08A84 /* Debug */,
+				6CC6FFDD2CE6D16E00D08A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC6FFA22CE6D16B00D08A84 /* Project object */;
+}
