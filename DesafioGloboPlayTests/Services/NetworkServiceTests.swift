@@ -24,7 +24,7 @@ class NetworkServiceTests: XCTestCase {
         service = nil
     }
     
-    func test_getTrendingsReturnsWithSuccess() {
+    func testGetTrendingsReturnsWithSuccess() {
         let expectation = XCTestExpectation(description: "Fetch Trendings")
         var fetchedTrendings: [Trending]?
         
@@ -43,7 +43,7 @@ class NetworkServiceTests: XCTestCase {
         XCTAssertNotNil(fetchedTrendings, "List returned with success!")
     }
     
-    func test_getMoviesReturnsWithSuccess() {
+    func testGetMoviesReturnsWithSuccess() {
         let expectation = XCTestExpectation(description: "Fetch Movies")
         var fetchedMovies: [Movie]?
         
@@ -62,7 +62,7 @@ class NetworkServiceTests: XCTestCase {
         XCTAssertNotNil(fetchedMovies, "List returned with success!")
     }
     
-    func test_getTVsReturnsWithSuccess() {
+    func testGetTVsReturnsWithSuccess() {
         let expectation = XCTestExpectation(description: "Fetch TV Shows")
         var fetchedTVs: [TV]?
         

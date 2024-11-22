@@ -46,17 +46,6 @@
                ReferencedContainer = "container:DesafioGloboPlay.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "YES"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CC6FFC92CE6D16E00D08A84"
-               BuildableName = "DesafioGloboPlayUITests.xctest"
-               BlueprintName = "DesafioGloboPlayUITests"
-               ReferencedContainer = "container:DesafioGloboPlay.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
